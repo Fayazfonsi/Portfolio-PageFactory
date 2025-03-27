@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="radioButtonM"/>
+          <include name="brokenLinkModule"/>
         </methods>
       </class> <!-- run.Elements -->
     </classes>

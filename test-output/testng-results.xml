@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-06T01:27:14 SGT" name="Default suite" finished-at="2025-03-06T01:28:53 SGT" duration-ms="99249">
+  <suite started-at="2025-03-26T14:52:53 SGT" name="Default suite" finished-at="2025-03-26T14:55:23 SGT" duration-ms="149342">
     <groups>
     </groups>
-    <test started-at="2025-03-06T01:27:14 SGT" name="Default test" finished-at="2025-03-06T01:28:53 SGT" duration-ms="99249">
+    <test started-at="2025-03-26T14:52:53 SGT" name="Default test" finished-at="2025-03-26T14:55:23 SGT" duration-ms="149342">
       <class name="run.Elements">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:27:12 SGT" name="setUp" finished-at="2025-03-06T01:27:14 SGT" duration-ms="2061" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:run.Elements@1151e434]" started-at="2025-03-26T14:52:50 SGT" name="setUp" finished-at="2025-03-26T14:52:53 SGT" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="textBoxM()[pri:0, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:27:14 SGT" name="textBoxM" finished-at="2025-03-06T01:28:23 SGT" duration-ms="68296" status="PASS">
+        <test-method signature="textBoxM()[pri:0, instance:run.Elements@1151e434]" started-at="2025-03-26T14:52:54 SGT" name="textBoxM" finished-at="2025-03-26T14:54:34 SGT" duration-ms="100771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBoxM -->
-        <test-method signature="textBoxPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:23 SGT" name="textBoxPage" data-provider="TextBox" finished-at="2025-03-06T01:28:23 SGT" duration-ms="730" status="PASS">
+        <test-method signature="textBoxPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:34 SGT" name="textBoxPage" data-provider="TextBox" finished-at="2025-03-26T14:54:35 SGT" duration-ms="612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,27 +41,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBoxPage -->
-        <test-method signature="checkBoxM()[pri:2, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:23 SGT" name="checkBoxM" finished-at="2025-03-06T01:28:25 SGT" duration-ms="1542" status="PASS">
+        <test-method signature="checkBoxM()[pri:2, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:35 SGT" name="checkBoxM" finished-at="2025-03-26T14:54:36 SGT" duration-ms="1180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBoxM -->
-        <test-method signature="radioButtonM()[pri:3, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:25 SGT" name="radioButtonM" finished-at="2025-03-06T01:28:25 SGT" duration-ms="303" status="PASS">
+        <test-method signature="radioButtonM()[pri:3, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:36 SGT" name="radioButtonM" finished-at="2025-03-26T14:54:36 SGT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButtonM -->
-        <test-method signature="webTableM()[pri:4, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:25 SGT" name="webTableM" finished-at="2025-03-06T01:28:28 SGT" duration-ms="2722" status="PASS">
+        <test-method signature="webTableM()[pri:4, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:36 SGT" name="webTableM" finished-at="2025-03-26T14:54:38 SGT" duration-ms="2024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webTableM -->
-        <test-method signature="buttonM()[pri:5, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:28 SGT" name="buttonM" finished-at="2025-03-06T01:28:29 SGT" duration-ms="777" status="PASS">
+        <test-method signature="buttonM()[pri:5, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:38 SGT" name="buttonM" finished-at="2025-03-26T14:54:39 SGT" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buttonM -->
-        <test-method signature="linkModule()[pri:6, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:29 SGT" name="linkModule" finished-at="2025-03-06T01:28:53 SGT" duration-ms="24785" status="PASS">
+        <test-method signature="linkModule()[pri:6, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:39 SGT" name="linkModule" finished-at="2025-03-26T14:54:57 SGT" duration-ms="18314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkModule -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:run.Elements@26e356f0]" started-at="2025-03-06T01:28:54 SGT" name="tearDown" finished-at="2025-03-06T01:28:54 SGT" duration-ms="352" status="PASS">
+        <test-method signature="brokenLinkModule()[pri:7, instance:run.Elements@1151e434]" started-at="2025-03-26T14:54:57 SGT" name="brokenLinkModule" finished-at="2025-03-26T14:55:23 SGT" duration-ms="25535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinkModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:run.Elements@1151e434]" started-at="2025-03-26T14:55:23 SGT" name="tearDown" finished-at="2025-03-26T14:55:23 SGT" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

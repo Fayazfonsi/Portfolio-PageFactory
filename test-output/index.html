@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1541088761\testng-customsuite.xml</span>
+                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-963746575\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="run.Elements" class="method navigator-link" hash-for-method="brokenLinkModule">brokenLinkModule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="run.Elements" class="method navigator-link" hash-for-method="buttonM">buttonM</a> <!-- method navigator-link -->
@@ -157,6 +162,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="brokenLinkModule">
+                  </a> <!-- brokenLinkModule -->
+                  <span class="method-name">brokenLinkModule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="buttonM">
                   </a> <!-- buttonM -->
                   <span class="method-name">buttonM</span>
@@ -210,7 +222,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1541088761\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-963746575\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -259,40 +271,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'textBoxM')
 data.setCell(0, 2, 'run.Elements')
-data.setCell(0, 3, 68296);
+data.setCell(0, 3, 100771);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'linkModule')
+data.setCell(1, 1, 'brokenLinkModule')
 data.setCell(1, 2, 'run.Elements')
-data.setCell(1, 3, 24785);
+data.setCell(1, 3, 25535);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'webTableM')
+data.setCell(2, 1, 'linkModule')
 data.setCell(2, 2, 'run.Elements')
-data.setCell(2, 3, 2722);
+data.setCell(2, 3, 18314);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkBoxM')
+data.setCell(3, 1, 'webTableM')
 data.setCell(3, 2, 'run.Elements')
-data.setCell(3, 3, 1542);
+data.setCell(3, 3, 2024);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'buttonM')
+data.setCell(4, 1, 'checkBoxM')
 data.setCell(4, 2, 'run.Elements')
-data.setCell(4, 3, 777);
+data.setCell(4, 3, 1180);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'textBoxPage')
 data.setCell(5, 2, 'run.Elements')
-data.setCell(5, 3, 730);
+data.setCell(5, 3, 612);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'radioButtonM')
+data.setCell(6, 1, 'buttonM')
 data.setCell(6, 2, 'run.Elements')
-data.setCell(6, 3, 303);
+data.setCell(6, 3, 532);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'radioButtonM')
+data.setCell(7, 2, 'run.Elements')
+data.setCell(7, 3, 293);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -325,35 +341,39 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">textBoxM</span>
-                <span class="method-start">2116 ms</span>
+                <span class="method-start">3102 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">textBoxPage(kundan, potatao@gmail.com, poo pandhal teru, kotameadu)</span>
-                <span class="method-start">70438 ms</span>
+                <span class="method-start">103895 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkBoxM</span>
-                <span class="method-start">71171 ms</span>
+                <span class="method-start">104510 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">radioButtonM</span>
-                <span class="method-start">72714 ms</span>
+                <span class="method-start">105692 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">webTableM</span>
-                <span class="method-start">73019 ms</span>
+                <span class="method-start">105986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">buttonM</span>
-                <span class="method-start">75744 ms</span>
+                <span class="method-start">108011 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">linkModule</span>
-                <span class="method-start">76523 ms</span>
+                <span class="method-start">108544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brokenLinkModule</span>
+                <span class="method-start">126859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">101394 ms</span>
+                <span class="method-start">152531 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

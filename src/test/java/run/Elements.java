@@ -2,6 +2,7 @@ package run;
 
 import org.testng.annotations.Test;
 
+import page.BrokenLink;
 import page.Buttonn;
 import page.CheckBox;
 import page.Links;
@@ -25,6 +26,7 @@ public class Elements {
 	private WebTable webTable;
 	private Buttonn buttonn;
 	private Links links;
+	private BrokenLink brokenLink;
 
 	@Test(priority = 0)
 	public void textBoxM() {
@@ -69,6 +71,11 @@ public class Elements {
 		links.linksPage();
 		
 	}
+	
+	@Test(priority = 7)
+	public void brokenLinkModule() {
+		brokenLink.brokenLinkPageM();
+	}
 
 	@BeforeSuite
 	public void setUp() {
@@ -83,6 +90,7 @@ public class Elements {
 		webTable = new WebTable(driver);
 		buttonn = new Buttonn(driver);
 		links = new Links(driver);
+		brokenLink = new BrokenLink(driver);
 		
 
 	}

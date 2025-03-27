@@ -52,7 +52,11 @@ public class BasePage {
 	
 	public void scrollUp() {
 		js1 = (JavascriptExecutor) driver;
-		js1.executeScript("window.scrollBy(0,-500");
+		js1.executeScript("window.scrollBy(0,-500)");
+	}
+	
+	public void backNavigation() {
+		driver.navigate().back();
 	}
 	
 	
