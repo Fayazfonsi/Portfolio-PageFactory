@@ -21,10 +21,15 @@ public class BrokenLink extends BasePage{
 	@FindBy(xpath = "(//a[contains(text(),'Click Here for Valid Link')])")
 	WebElement validLink;
 	
+	@FindBy(xpath = "(//a[contains(text(),'Click Here for Broken Link')])")
+	WebElement bl;
+	
+	@FindBy(xpath = "(//h3[contains(text(),'Status Codes')])")
+	WebElement sc;
 	
 	public void brokenLinkPageM() {
 		
-		scrollUp();
+		scrolldown();
 		explicitWait(By.xpath("(//span[contains(text(),'Broken Links - Images')])"));
 		brokenLinkImagePage.click();
 		scrolldown();
@@ -41,6 +46,20 @@ public class BrokenLink extends BasePage{
 		}
 		
 		backNavigation();
+		bl.click();
+		explicitWait(By.xpath("(//h3[contains(text(),'Status Codes')])"));
+		if (currenturl().equalsIgnoreCase("https://demoqa.com/")) {
+			System.out.println("url is working");
+			
+		}
+		else {
+			System.out.println("URL is not working");
+		}
+		
+		backNavigation();
+		explicitWait(By.xpath("(//span[contains(text(),'Broken Links - Images')])"));
+		scrolldown();
+		
 		
 		
 	}

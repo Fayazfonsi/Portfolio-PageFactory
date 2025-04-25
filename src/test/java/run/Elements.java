@@ -8,6 +8,7 @@ import page.CheckBox;
 import page.Links;
 import page.RadioButton;
 import page.TextBox;
+import page.UploadAndDownload;
 import page.WebTable;
 import org.testng.annotations.BeforeSuite;
 
@@ -27,6 +28,7 @@ public class Elements {
 	private Buttonn buttonn;
 	private Links links;
 	private BrokenLink brokenLink;
+	private UploadAndDownload uploadAndDownload;
 
 	@Test(priority = 0)
 	public void textBoxM() {
@@ -76,6 +78,11 @@ public class Elements {
 	public void brokenLinkModule() {
 		brokenLink.brokenLinkPageM();
 	}
+	
+	@Test(priority=8)
+	public void uploadAndDownloadModule() {
+		uploadAndDownload.uploadAndDownload();
+	}
 
 	@BeforeSuite
 	public void setUp() {
@@ -91,6 +98,7 @@ public class Elements {
 		buttonn = new Buttonn(driver);
 		links = new Links(driver);
 		brokenLink = new BrokenLink(driver);
+		uploadAndDownload = new UploadAndDownload(driver);
 		
 
 	}
@@ -100,5 +108,5 @@ public class Elements {
 		DriverManager.quitDriver();
 
 	}
-
+	
 }

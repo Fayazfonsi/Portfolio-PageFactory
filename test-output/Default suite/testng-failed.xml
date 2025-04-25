@@ -6,8 +6,8 @@
       <class name="run.Elements">
         <methods>
           <include name="tearDown"/>
+          <include name="uploadAndDownloadModule"/>
           <include name="setUp"/>
-          <include name="brokenLinkModule"/>
         </methods>
       </class> <!-- run.Elements -->
     </classes>
